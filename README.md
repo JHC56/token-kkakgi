@@ -1,7 +1,5 @@
 # token-kkakgi (토큰깎이)
 
-> A Chrome extension that **trims verbose Korean phrasing in ChatGPT / Claude prompt boxes to reduce token usage.**
-
 Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in
 text that is **sent on every turn**, such as system prompts or project instructions.
 token-kkakgi rewrites the wordy honorific style common in such text
@@ -16,15 +14,17 @@ user's browser** — your input is never sent to an external server. Open source
 
 ## Demo
 
+**chatgpt"
 https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
+"claude"
 https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
 
 **1. "이 코드를 검토해 주시기 바랍니다. 또한 성능도 분석해 주시면 감사하겠습니다.** -> 이 코드를 검토할 것. 성능도 분석 요망.
 
-**2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요. ** -> 이 부분을 이 부분을 수정하고 테스트.
+**2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요."** -> 이 부분을 이 부분을 수정하고 테스트.
 
--> "Shortening sentence length naturally reduces the number of tokens."
+->Shortening sentence length naturally reduces the number of tokens.
 ---
 
 ## Install
