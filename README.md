@@ -1,6 +1,14 @@
 # Token-kkakgi (토큰깎이)
 
 
+Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-Apache_2.0-orange.svg" alt="License">
+  <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version">
+</p>
+
+
 <p align="center">
   <img src="img/logo" width="75%">
 </p>
