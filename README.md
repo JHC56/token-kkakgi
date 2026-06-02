@@ -16,20 +16,6 @@
   <img src="img/logo" width="75%">
 </p>
 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-## Abstract
-Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in text that is **sent on every turn**, such as system prompts or project instructions.
-token-kkakgi rewrites the wordy honorific style common in such text (`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
-
-It suggests edits next to the input box, and is **designed so that all processing happens inside the user's browser** — your input is never sent to an external server. Open source (Apache 2.0).
-
-<sub><a name="ref"></a>¹ Token-count length for the same text varies significantly across languages (Petrov et al., [NeurIPS 2023](https://arxiv.org/abs/2305.15425)).</sub>
-
 &nbsp;
 &nbsp;
 &nbsp;
@@ -49,6 +35,20 @@ https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 **2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요."** -> 이 부분을 수정하고 테스트.<br><sub>"Plz modify this part and this part, and then test it."</sub>
 
 ->Shortening sentence length naturally reduces the number of tokens.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+## Abstract
+Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in text that is **sent on every turn**, such as system prompts or project instructions.
+token-kkakgi rewrites the wordy honorific style common in such text (`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
+
+It suggests edits next to the input box, and is **designed so that all processing happens inside the user's browser** — your input is never sent to an external server. Open source (Apache 2.0).
+
+<sub><a name="ref"></a>¹ Token-count length for the same text varies significantly across languages (Petrov et al., [NeurIPS 2023](https://arxiv.org/abs/2305.15425)).</sub>
+
 
 &nbsp;
 &nbsp;
