@@ -35,22 +35,6 @@ It suggests edits next to the input box, and is **designed so that all processin
 &nbsp;
 &nbsp;
 &nbsp;
-## Features
-
-- Inline suggestions (badge at the top-right of the input box → suggestion card)
-- Apply suggestions **individually or all at once**
-- **Per-word token breakdown** — shows which words cost the most tokens
-- **Draggable** suggestion card
-- Removes accidental **adjacent repeats** (e.g. `검토 검토` → `검토`); emphatic repeats are preserved
-- Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
-- **Local processing** — designed not to send your text to any external server
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 ## Demo
 
 ### 1. ChatGPT
@@ -65,6 +49,21 @@ https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 **2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요."** -> 이 부분을 수정하고 테스트.<br><sub>"Plz modify this part and this part, and then test it."</sub>
 
 ->Shortening sentence length naturally reduces the number of tokens.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+## Features
+
+- Inline suggestions (badge at the top-right of the input box → suggestion card)
+- Apply suggestions **individually or all at once**
+- **Per-word token breakdown** — shows which words cost the most tokens
+- **Draggable** suggestion card
+- Removes accidental **adjacent repeats** (e.g. `검토 검토` → `검토`); emphatic repeats are preserved
+- Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
+- **Local processing** — designed not to send your text to any external server
 
 &nbsp;
 &nbsp;
