@@ -16,15 +16,20 @@ user's browser** — your input is never sent to an external server. Open source
 
 ## Demo
 
-> _(Add a demo GIF/screenshot and link it below.)_
->
-> ![demo](demo.gif)
+https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
+https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
+
+**1. "이 코드를 검토해 주시기 바랍니다. 또한 성능도 분석해 주시면 감사하겠습니다.** -> 이 코드를 검토할 것. 성능도 분석 요망.
+
+**2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요. ** -> 이 부분을 이 부분을 수정하고 테스트.
+
+-> "Shortening sentence length naturally reduces the number of tokens."
 ---
 
 ## Install
 
-### Option A — Chrome Web Store _(after publishing)_
+### Option A — Chrome Web Store _(coming soon)_
 Search for "token-kkakgi" in the store and add it.
 
 ### Option B — Developer mode (right now)
