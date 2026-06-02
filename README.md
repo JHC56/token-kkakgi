@@ -1,6 +1,7 @@
 # Token-kkakgi (토큰깎이)
 
 
+
 Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
 
 <p align="center">
@@ -8,12 +9,17 @@ Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
   <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version">
 </p>
 
-
 <p align="center">
   <img src="img/logo" width="75%">
 </p>
 
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+## Abstract
 Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in text that is **sent on every turn**, such as system prompts or project instructions.
 token-kkakgi rewrites the wordy honorific style common in such text (`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
 
