@@ -34,6 +34,22 @@ It suggests edits next to the input box, and is **designed so that all processin
 &nbsp;
 &nbsp;
 &nbsp;
+## Features
+
+- Inline suggestions (badge at the top-right of the input box → suggestion card)
+- Apply suggestions **individually or all at once**
+- **Per-word token breakdown** — shows which words cost the most tokens
+- **Draggable** suggestion card
+- Removes accidental **adjacent repeats** (e.g. `검토 검토` → `검토`); emphatic repeats are preserved
+- Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
+- **Local processing** — designed not to send your text to any external server
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Demo
 
 ### 1.Chatgpt
@@ -64,20 +80,6 @@ Search for "token-kkakgi" in the store and add it.
 2. Click **Load unpacked** → select the **`extension/` folder**
 3. Go to `chatgpt.com` (or `claude.ai`) → click the input box → click the badge (top right) → apply suggestions
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-## Features
-
-- Inline suggestions (badge at the top-right of the input box → suggestion card)
-- Apply suggestions **individually or all at once**
-- **Per-word token breakdown** — shows which words cost the most tokens
-- **Draggable** suggestion card
-- Removes accidental **adjacent repeats** (e.g. `검토 검토` → `검토`); emphatic repeats are preserved
-- Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
-- **Local processing** — designed not to send your text to any external server
 
 &nbsp;
 &nbsp;
