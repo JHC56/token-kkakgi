@@ -1,12 +1,9 @@
 # Token-kkakgi (토큰깎이)
 
-Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in
-text that is **sent on every turn**, such as system prompts or project instructions.
-token-kkakgi rewrites the wordy honorific style common in such text
-(`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
+Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in text that is **sent on every turn**, such as system prompts or project instructions.
+token-kkakgi rewrites the wordy honorific style common in such text (`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
 
-It suggests edits next to the input box, and is **designed so that all processing happens inside the
-user's browser** — your input is never sent to an external server. Open source (Apache 2.0).
+It suggests edits next to the input box, and is **designed so that all processing happens inside the user's browser** — your input is never sent to an external server. Open source (Apache 2.0).
 
 <sub><a name="ref"></a>¹ Token-count length for the same text varies significantly across languages (Petrov et al., [NeurIPS 2023](https://arxiv.org/abs/2305.15425)).</sub>
 
@@ -14,10 +11,10 @@ user's browser** — your input is never sent to an external server. Open source
 
 ## Demo
 
-**chatgpt"
+**chatgpt"**
 https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
-"claude"
+**"claude"**
 https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
 
 **1. "이 코드를 검토해 주시기 바랍니다. 또한 성능도 분석해 주시면 감사하겠습니다.** -> 이 코드를 검토할 것. 성능도 분석 요망.
