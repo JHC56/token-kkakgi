@@ -7,7 +7,11 @@ It suggests edits next to the input box, and is **designed so that all processin
 
 <sub><a name="ref"></a>¹ Token-count length for the same text varies significantly across languages (Petrov et al., [NeurIPS 2023](https://arxiv.org/abs/2305.15425)).</sub>
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Demo
 
 ### chatgpt
@@ -23,7 +27,11 @@ https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
 ->Shortening sentence length naturally reduces the number of tokens.
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Install
 
 ### Option A — Chrome Web Store _(coming soon)_
@@ -34,7 +42,11 @@ Search for "token-kkakgi" in the store and add it.
 2. Click **Load unpacked** → select the **`extension/` folder**
 3. Go to `chatgpt.com` (or `claude.ai`) → click the input box → click the badge (top right) → apply suggestions
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Features
 
 - Inline suggestions (badge at the top-right of the input box → suggestion card)
@@ -45,13 +57,22 @@ Search for "token-kkakgi" in the store and add it.
 - Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
 - **Local processing** — designed not to send your text to any external server
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Effectiveness (measured)
 
 > Tokenizer: **`o200k_base`** (GPT-4o family), bundled in the extension. Counts are **exact on ChatGPT**;
 > on Claude they are an approximation (Claude's tokenizer is private; the trend is the same).
 > Anyone can reproduce these by pasting the sentences into the [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ### Per-sentence examples
 Korean sentences are kept as-is (this tool operates on Korean); English glosses are added for readers.
 
@@ -66,6 +87,11 @@ Korean sentences are kept as-is (this tool operates on Korean); English glosses 
 | 배포 자동화 파이프라인을 구축하는 것을 권장합니다. → …구축하는 것을 권장함.<br><sub>"Building a deployment automation pipeline is recommended."</sub> | 16 | 16 | **0%** |
 | **Total** | **146** | **126** | **13.7%** |
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ### Full-corpus measurement (30 written-style instructions)
 
 | Metric | Value |
@@ -75,7 +101,11 @@ Korean sentences are kept as-is (this tool operates on Korean); English glosses 
 | **Average reduction** | **11.8%** |
 | Sentence distribution | reduced 25 · unchanged 5 · increased 0 |
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Repository structure
 
 ```
@@ -94,7 +124,11 @@ Add or edit rules in `extension/rules.js`: `RAW` (phrases), `FILLERS` (filler wo
 `PROTECTED` (words never touched).
 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## Limitations
 
 - **Target is written-style instructions/prompts.** Conversational honorifics are already concise,
@@ -112,7 +146,11 @@ Add or edit rules in `extension/rules.js`: `RAW` (phrases), `FILLERS` (filler wo
 - The write-back into the input box (ProseMirror-style editors on both sites) may need maintenance if
   ChatGPT or Claude changes its UI.
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ## License
 
 [Apache License 2.0](LICENSE). The extension bundles `js-tiktoken` (MIT) for token counting; see `NOTICE`.
