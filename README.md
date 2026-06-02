@@ -11,11 +11,12 @@ It suggests edits next to the input box, and is **designed so that all processin
 
 ## Demo
 
-**chatgpt"**
-https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
-
-**"claude"**
+###chatgpt
 https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
+
+
+###claude
+https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
 **1. "이 코드를 검토해 주시기 바랍니다. 또한 성능도 분석해 주시면 감사하겠습니다.** -> 이 코드를 검토할 것. 성능도 분석 요망.
 
