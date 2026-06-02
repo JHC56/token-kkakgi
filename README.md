@@ -7,7 +7,6 @@ It suggests edits next to the input box, and is **designed so that all processin
 
 <sub><a name="ref"></a>¹ Token-count length for the same text varies significantly across languages (Petrov et al., [NeurIPS 2023](https://arxiv.org/abs/2305.15425)).</sub>
 
----
 
 ## Demo
 
@@ -24,7 +23,6 @@ https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
 ->Shortening sentence length naturally reduces the number of tokens.
 
----
 
 ## Install
 
@@ -36,7 +34,6 @@ Search for "token-kkakgi" in the store and add it.
 2. Click **Load unpacked** → select the **`extension/` folder**
 3. Go to `chatgpt.com` (or `claude.ai`) → click the input box → click the badge (top right) → apply suggestions
 
----
 
 ## Features
 
@@ -48,7 +45,6 @@ Search for "token-kkakgi" in the store and add it.
 - Meaning-critical words (`반드시` *must*, `절대` *never*, `금지` *forbidden*) are left untouched
 - **Local processing** — designed not to send your text to any external server
 
----
 
 ## Effectiveness (measured)
 
@@ -80,8 +76,6 @@ Korean sentences are kept as-is (this tool operates on Korean); English glosses 
 | Sentence distribution | reduced 25 · unchanged 5 · increased 0 |
 
 
----
-
 ## Repository structure
 
 ```
@@ -99,7 +93,7 @@ PRIVACY.md          privacy policy
 Add or edit rules in `extension/rules.js`: `RAW` (phrases), `FILLERS` (filler words),
 `PROTECTED` (words never touched).
 
----
+
 
 ## Limitations
 
@@ -118,11 +112,9 @@ Add or edit rules in `extension/rules.js`: `RAW` (phrases), `FILLERS` (filler wo
 - The write-back into the input box (ProseMirror-style editors on both sites) may need maintenance if
   ChatGPT or Claude changes its UI.
 
----
 
 ## License
 
 [Apache License 2.0](LICENSE). The extension bundles `js-tiktoken` (MIT) for token counting; see `NOTICE`.
 
-Contributions welcome — for new phrasing rules in `extension/rules.js`, please verify the token
-reduction with a tokenizer before opening a PR.
+Contributions welcome — for new phrasing rules in `extension/rules.js`, please verify the token reduction with a tokenizer before opening a PR.
