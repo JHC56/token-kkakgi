@@ -1,4 +1,4 @@
-# Token-kkakgi (토큰깎이)
+# Token-kkakgi (토큰깎이) - beta
 
 
 >Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
