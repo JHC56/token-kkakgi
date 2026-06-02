@@ -1,0 +1,11 @@
+token-kkakgi (토큰깎이)
+Copyright 2026 token-kkakgi contributors
+
+This product is licensed under the Apache License, Version 2.0.
+
+---
+이 제품은 다음 제3자 라이브러리를 포함/사용합니다:
+- js-tiktoken — MIT License (확장에 번들: extension/tiktoken.bundle.js)
+- tiktoken (Python) — MIT License (벤치마크 스크립트, 사용자가 직접 설치)
+
+각 라이브러리는 각자의 라이선스를 따릅니다.

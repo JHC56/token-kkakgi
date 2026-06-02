@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "토큰깎이 — 한국어 프롬프트 토큰 최적화",
+  "version": "1.0.0",
+  "description": "ChatGPT·Claude 입력창의 장황한 한국어 표현을 간결하게 다듬어 토큰을 줄여줍니다. 토큰 수는 GPT 토크나이저(o200k) 기준이며, 모든 처리가 브라우저 안에서 이루어지도록 설계되었습니다.",
+  "action": {
+    "default_title": "토큰깎이 (ChatGPT·Claude)",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://*.chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "tiktoken.bundle.js",
+        "rules.js",
+        "chatgpt.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://claude.ai/*",
+        "https://*.claude.ai/*",
+        "https://claude.com/*",
+        "https://*.claude.com/*"
+      ],
+      "js": [
+        "tiktoken.bundle.js",
+        "rules.js",
+        "claude.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

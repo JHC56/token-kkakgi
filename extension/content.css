@@ -1,0 +1,77 @@
+/* korc- 접두사로 클로드 스타일과 충돌 방지. 초록 테마, 단순화. */
+.korc-badge{
+  position:fixed; z-index:2147483000; display:none;
+  width:30px; height:30px; border-radius:50%;
+  background:#0F6E56; color:#fff; border:2px solid #fff;
+  align-items:center; justify-content:center; cursor:move;
+  font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic","맑은 고딕",sans-serif;
+  font-size:13px; font-weight:700; line-height:1;
+  box-shadow:0 2px 8px rgba(15,110,86,.4);
+}
+.korc-badge.korc-on{ display:inline-flex; }
+.korc-badge.korc-clean{ background:#4f9e83; }
+
+.korc-card{
+  position:fixed; z-index:2147483001; display:none;
+  width:320px; max-width:calc(100vw - 16px);
+  background:#fff; color:#16352b;
+  border:1px solid #dcebe3; border-radius:12px;
+  box-shadow:0 12px 32px rgba(14,122,95,.2);
+  font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic","맑은 고딕",sans-serif;
+  overflow:hidden;
+}
+.korc-card.korc-open{ display:block; }
+
+.korc-head{
+  display:flex; align-items:center; gap:8px;
+  padding:11px 14px; background:#e6f6ef; border-bottom:1px solid #dcebe3;
+  font-size:13px; user-select:none;
+}
+.korc-grip{ color:#9bbfb1; font-size:12px; letter-spacing:-3px; line-height:1; }
+.korc-head b{ flex:1; }
+.korc-save{ font-family:ui-monospace,Menlo,monospace; font-size:11px; color:#0e7a5f; font-weight:700; }
+
+.korc-list{ max-height:240px; overflow-y:auto; padding:6px; }
+.korc-item{
+  display:grid; grid-template-columns:1fr auto; gap:8px; align-items:center;
+  padding:8px; border-radius:9px;
+}
+.korc-item:hover{ background:#e6f6ef; }
+.korc-t{ font-size:13px; }
+.korc-t s{ color:#6b8079; }
+.korc-t b{ color:#16352b; }
+.korc-t i{ color:#6b8079; font-style:italic; font-weight:400; }
+.korc-n{ display:block; font-size:10.5px; color:#6b8079; margin-top:2px; }
+.korc-item>button{
+  font-family:inherit; font-size:11.5px; font-weight:700; cursor:pointer;
+  color:#0e7a5f; background:#fff; border:1.5px solid #15a37f;
+  border-radius:7px; padding:6px 11px; white-space:nowrap;
+}
+.korc-item>button:hover{ background:#15a37f; color:#fff; }
+
+.korc-all{
+  display:block; width:calc(100% - 24px); margin:4px 12px 10px;
+  font-family:inherit; font-size:13px; font-weight:800; cursor:pointer;
+  color:#fff; background:#0F6E56; border:none; border-radius:9px; padding:10px;
+}
+.korc-all:hover{ background:#0c6450; }
+
+/* 단어별 토큰 분해 */
+.korc-bd-title{
+  padding:8px 14px 4px; font-size:11px; font-weight:700; color:#16352b;
+}
+.korc-bd-title span{ font-weight:400; color:#6b8079; font-size:10px; }
+.korc-bd{
+  display:flex; flex-wrap:wrap; gap:5px; padding:2px 14px 12px;
+}
+.korc-w{
+  position:relative; display:inline-flex; align-items:center;
+  padding:3px 7px; border-radius:6px; font-size:12.5px;
+  background:#eef6f2; color:#16352b; border:1px solid #dcebe3;
+}
+.korc-w sub{
+  font-size:9px; color:#0e7a5f; margin-left:3px; font-weight:700; bottom:0;
+}
+.korc-w2{ background:#cfeadd; border-color:#aedcc7; }
+.korc-w3{ background:#a7d8c2; border-color:#7cc6ad; }
+.korc-w3 sub{ color:#0a5743; }
