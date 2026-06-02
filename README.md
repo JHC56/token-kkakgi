@@ -1,5 +1,11 @@
 # Token-kkakgi (토큰깎이)
 
+
+<p align="center">
+  <img src="img/logo" width="85%">
+</p>
+
+
 Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in text that is **sent on every turn**, such as system prompts or project instructions.
 token-kkakgi rewrites the wordy honorific style common in such text (`~해 주시기 바랍니다`, `~하는 것이 좋습니다`) into a concise form while preserving meaning and grammar.
 
@@ -68,11 +74,7 @@ Search for "token-kkakgi" in the store and add it.
 > on Claude they are an approximation (Claude's tokenizer is private; the trend is the same).
 > Anyone can reproduce these by pasting the sentences into the [OpenAI Tokenizer](https://platform.openai.com/tokenizer).
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
 ### Per-sentence examples
 Korean sentences are kept as-is (this tool operates on Korean); English glosses are added for readers.
 
