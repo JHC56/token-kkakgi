@@ -1,4 +1,4 @@
-# token-kkakgi (토큰깎이)
+# Token-kkakgi (토큰깎이)
 
 Korean uses more tokens than English for the same meaning.[¹](#ref) This cost adds up especially in
 text that is **sent on every turn**, such as system prompts or project instructions.
@@ -25,6 +25,7 @@ https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
 **2. "이 부분을 이 부분을 수정하고 그리고 그리고 테스트해 주세요."** -> 이 부분을 이 부분을 수정하고 테스트.
 
 ->Shortening sentence length naturally reduces the number of tokens.
+
 ---
 
 ## Install
@@ -80,7 +81,6 @@ Korean sentences are kept as-is (this tool operates on Korean); English glosses 
 | **Average reduction** | **11.8%** |
 | Sentence distribution | reduced 25 · unchanged 5 · increased 0 |
 
-> Conversational honorifics (`~예요/~세요`) are already short, so there is little to trim.
 
 ---
 
