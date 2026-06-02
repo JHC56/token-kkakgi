@@ -7,6 +7,8 @@ Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
 <p align="center">
   <img src="https://img.shields.io/badge/license-Apache_2.0-orange.svg" alt="License">
   <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/extension-ChatGPT-10A37F.svg" alt="ChatGPT">
+  <img src="https://img.shields.io/badge/extension-Claude-D97756.svg" alt="Claude">
 </p>
 
 <p align="center">
@@ -34,11 +36,11 @@ It suggests edits next to the input box, and is **designed so that all processin
 &nbsp;
 ## Demo
 
-### chatgpt
+### 1.Chatgpt
 https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
 
 
-### claude
+### 2.Claude
 https://github.com/user-attachments/assets/86089ec9-5cbd-4268-9bfd-8c78eb348748
 
 **1. "이 코드를 검토해 주시기 바랍니다. 또한 성능도 분석해 주시면 감사하겠습니다.** -> 이 코드를 검토할 것. 성능도 분석 요망.<br><sub>"Please review this code. We would also appreciate it if you could analyze its performance."</sub>
