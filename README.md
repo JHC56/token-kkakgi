@@ -21,8 +21,6 @@
 &nbsp;
 &nbsp;
 &nbsp;
-## Demo
-
 ### 1. ChatGPT
 https://github.com/user-attachments/assets/4f9c75ba-56f2-44e3-87e7-1def18a3ac43
 
