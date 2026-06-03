@@ -1,5 +1,7 @@
 # Token-kkakgi (토큰깎이) - beta
 
+ENGLISH README | [한국어 README](README.KR.md)
+
 
 >Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
 >
