@@ -114,10 +114,13 @@ Korean sentences are kept as-is (this tool operates on Korean); English glosses 
 
 | Metric | Value |
 |---|---|
-| Coverage (≥1 suggestion) | 29/30 (**97%**) |
-| Total tokens | 570 → 503 |
-| **Average reduction** | **11.8%** |
-| Sentence distribution | reduced 25 · unchanged 5 · increased 0 |
+| Coverage (≥1 suggestion) | 30/30 (**100%**) |
+| Total tokens | 575 → 505 |
+| **Average reduction** | **12.2%** |
+| Sentence distribution | reduced 23 · unchanged 7 · increased 0 |
+
+Reproduce with `node benchmark/measure.js` — it runs the actual extension engine
+(`extension/rules.js`) and bundled tokenizer over the 30-sentence corpus.
 
 &nbsp;
 &nbsp;
