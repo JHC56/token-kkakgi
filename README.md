@@ -1,11 +1,9 @@
-# Token-kkakgi (토큰깎이) - beta
+# Token-kkakgi
 
 ENGLISH README | [한국어 README](README.KR.md)
 
 
 >Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
->
->Claude와 GPT의 한국어 프롬프트 토큰을 절약해 주는 크롬 확장 프로그램입니다.
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-Apache_2.0-orange.svg" alt="License">
