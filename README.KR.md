@@ -2,9 +2,11 @@
 
 [ENGLISH README](README.md) | 한국어 README
 
->Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
->
 >Claude와 GPT의 한국어 프롬프트 토큰을 절약해 주는 크롬 확장 프로그램입니다.
+
+<p align="center">
+  이 프로젝트가 도움이 되셨다면, ⭐를 눌러 다른 사람들도 불 수 있게 도와주세요!
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-Apache_2.0-orange.svg" alt="License">
