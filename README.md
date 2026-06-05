@@ -6,6 +6,10 @@ ENGLISH README | [한국어 README](README.KR.md)
 >Trim verbose Korean phrasing to cut tokens in ChatGPT & Claude
 
 <p align="center">
+  If this project helped you, drop a ⭐ to help spread the word!
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/license-Apache_2.0-orange.svg" alt="License">
   <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/extension-ChatGPT-10A37F.svg" alt="ChatGPT">
